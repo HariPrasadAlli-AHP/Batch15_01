@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GLAMS Test Suite" parallel="false">
+
+
+	<test name="GLAMS Address Page Test">
+		<parameter name="browser" value="chrome" /> <!-- Change to firefox/edge if needed -->
+		<classes>
+			<class name="com.tutorialNinja01.ninja01.AddressPageTest_TC_003" />
+		</classes>
+	</test>
+
+</suite>
